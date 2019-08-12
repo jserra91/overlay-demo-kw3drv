@@ -104,14 +104,12 @@ export class MaterialModule {}
   ],
   declarations: [
     AppComponent,
-    RotiniPanel,
-    SpagettiPanel
+    RotiniPanel
     ],
   bootstrap: [AppComponent],
   providers: [],
   entryComponents: [
-    RotiniPanel,
-    SpagettiPanel
+    RotiniPanel
     ]
 })
 export class AppModule {}
